@@ -16,18 +16,8 @@
 - Divisez vos données en ensembles d'entraînement et de test. 
 - Utilisez FEATURE ENGINEERING pour créer des nouvelles colonnes
   - J'ai rajouté trois colonnes : nombre de caractères, nombre de mot et nombre de phrases.
-  - Aussi j'ai utilisé le tfidf pour tokenizer la colonne SMS, ce qui a été utilisé dans l'entrainement du modèle
-    ```python
-     mnb = MultinomialNB()
-    ```
-  - Enfin j'ai utilisé le word2Vec, plus précisement
-    ```python
-    word_vectors = api.load("glove-twitter-25")
-    ``` pour tokenizer le SMS, et pour ce cas on a utilisé le modèle
-    ```python
-    logreg = LogisticRegression()```
-    
-  -  
+  - Aussi j'ai utilisé le tfidf pour tokenizer la colonne SMS, ce qui a été utilisé dans l'entrainement du modèle ``` mnb = MultinomialNB() ```
+  - Enfin j'ai utilisé le word2Vec, plus précisement ``` word_vectors = api.load("glove-twitter-25") ``` pour tokenizer le SMS, et pour ce cas on a utilisé le modèle ``` logreg = LogisticRegression()```
 - Utilisez un algorithme de votre choix pour faire la classification.
 - Faites des prédictions.
 - Évaluer le modèle à l'aide de la matrice de confusion et du rapport de classification.
