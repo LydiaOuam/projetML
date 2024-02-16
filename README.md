@@ -9,13 +9,15 @@
      data = data.drop_duplicates(keep='first')
     ```
 - Encodez les caractéristiques catégorielles en numérique.
-  - J'ai encoder les valeurs de la colonne Class en transformant les chaines de caractère en valeurs binaires (0 et 1) en utilsant ```python
+  - J'ai encoder les valeurs de la colonne Class en transformant les chaines de caractère en valeurs binaires (0 et 1) en utilsant
+    ```python
     encoder = LabelEncoder()
     ```
 - Divisez vos données en ensembles d'entraînement et de test. 
 - Utilisez FEATURE ENGINEERING pour créer des nouvelles colonnes
   - J'ai rajouté trois colonnes : nombre de caractères, nombre de mot et nombre de phrases.
-  - Aussi j'ai utilisé le tfidf pour tokenizer la colonne SMS, ce qui a été utilisé dans l'entrainement du modèle ```python
+  - Aussi j'ai utilisé le tfidf pour tokenizer la colonne SMS, ce qui a été utilisé dans l'entrainement du modèle
+    ```python
      mnb = MultinomialNB()
     ```
   - Enfin 
