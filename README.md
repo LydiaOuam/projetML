@@ -5,7 +5,9 @@
 - Inspectez et nettoyez les données si nécessaire.
   - Vérifier les nulls => y'a pas de valeurs nulls
   - Vérifier les doublons => y'a 404 linges en double, on a supprimé en utilisant le code suivant
-    ```python data = data.drop_duplicates(keep='first')```
+    ```python
+     data = data.drop_duplicates(keep='first')
+    ```
 - Encodez les caractéristiques catégorielles en numérique.
   - J'ai encoder les valeurs de la colonne Class en transformant les chaines de caractère en valeurs binaires (0 et 1) en utilsant ```python encoder = LabelEncoder()```
 - Divisez vos données en ensembles d'entraînement et de test. 
