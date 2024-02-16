@@ -23,11 +23,13 @@
   - Pour le modèle MultinomialNB on a eu ceci  comme résultat :
     ![resulatabnm](https://github.com/LydiaOuam/TPDP/assets/84903904/acc1ac63-2f35-4109-a98e-a1f561cabb37)
     Le rapport de classification fournit des mesures de performance pour chaque classe et des moyennes globales.
-Pour la classe 0, le modèle a une excellente précision, rappel et score F1 de 0.97, 1.00 et 0.99 respectivement, ce qui indique qu'il prédit correctement la classe 0 dans la plupart des cas.
-Pour la classe 1, la précision est parfaite à 1.00, mais le rappel est légèrement plus bas à 0.81, ce qui signifie que le modèle peut manquer quelques exemples positifs.
-L'accuracy globale du modèle est de 0.97, ce qui indique qu'il prédit correctement la classe pour 97% des exemples dans l'ensemble de données de test.
+    - Pour la classe 0, le modèle a une excellente précision, rappel et score F1 de 0.97, 1.00 et 0.99 respectivement, ce qui indique qu'il prédit correctement la classe 0 dans la plupart des cas.
+    - Pour la classe 1, la précision est parfaite à 1.00, mais le rappel est légèrement plus bas à 0.81, ce qui signifie que le modèle peut manquer quelques exemples positifs.
+    - L'accuracy globale du modèle est de 0.97, ce qui indique qu'il prédit correctement la classe pour 97% des exemples dans l'ensemble de données de test.
+
 En moyenne, le modèle a une précision, un rappel et un score F1 de 0.99, 0.91 et 0.94 respectivement, ce qui montre une performance globalement élevée, mais avec une certaine différence entre les classes.
 En conclusion, le modèle semble être performant dans la prédiction des deux classes, mais il peut être légèrement biaisé vers la classe majoritaire.
+
     
   - Pour le modèle LogisticRegression on a eu ceci  comme résultat :
    ![resultatLogreg](https://github.com/LydiaOuam/TPDP/assets/84903904/9ddf5401-dc6c-4e52-a99e-2ce7414c24e7)
