@@ -20,9 +20,11 @@
     ```python
      mnb = MultinomialNB()
     ```
-  - Enfin j'ai utilisé le word2Vec, plus précisement ```python
+  - Enfin j'ai utilisé le word2Vec, plus précisement
+    ```python
     word_vectors = api.load("glove-twitter-25")
-    ``` pour tokenizer le SMS, et pour ce cas on a utilisé le modèle ```python
+    ``` pour tokenizer le SMS, et pour ce cas on a utilisé le modèle
+    ```python
     logreg = LogisticRegression()```
     
   -  
