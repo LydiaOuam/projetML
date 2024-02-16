@@ -25,3 +25,4 @@
     
   - Pour le modèle LogisticRegression on a eu ceci  comme résultat :
     ```Accuracy: 0.9168278529980658```
+    
