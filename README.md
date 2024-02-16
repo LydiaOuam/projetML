@@ -20,7 +20,12 @@
     ```python
      mnb = MultinomialNB()
     ```
-  - Enfin 
+  - Enfin j'ai utilisé le word2Vec, plus précisement ```python
+    word_vectors = api.load("glove-twitter-25")
+    ``` pour tokenizer le SMS, et pour ce cas on a utilisé le modèle ```python
+    logreg = LogisticRegression()```
+    
+  -  
 - Utilisez un algorithme de votre choix pour faire la classification.
 - Faites des prédictions.
 - Évaluer le modèle à l'aide de la matrice de confusion et du rapport de classification.
